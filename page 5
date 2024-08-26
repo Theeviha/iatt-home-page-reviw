@@ -1,0 +1,131 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>IAT Technologies</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/5.1.3/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap" rel="stylesheet">
+    <style>
+        .body {
+            font-size: 11px;
+        }
+        .text-color {
+            color: #0062cc;
+        }
+        .text-underline {
+            text-decoration: underline solid #fbbc05;
+            text-decoration-thickness: 2px;
+        }
+        .card-title img {
+            border-radius: 20%;
+            width: 30px;
+            height: 30px;
+            object-fit: cover;
+            margin-right: 15px;
+        }
+        .quote-icon {
+            color: #ffe794;
+            font-size: 34px;
+            vertical-align: middle;
+        }
+        .icon-inline {
+            vertical-align: middle;
+            margin: 0 5px;
+            color: #fbbc05;
+        }
+        .card-text {
+            color: #686b6e;
+        }
+ 
+       
+    </style>
+</head>
+<body>
+ 
+    <section class="container py-5" style="background-color:#fffdfa;">
+        <div class="text-jestyfy-start mb-5">
+            <h2 class="fw-bold">Student <span class="text-color text-underline"style="color: #173971;">Feedback</span></h2>
+            <p class="text-muted">Various versions have evolved over the years, sometimes by accident,</p>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-md-6 mb-3">
+                <div class="card border-0 shadow rounded-4 p-4">
+                    <div class="d-flex align-items-center mb-3">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjTsAa5Wv6MKmxcr103bu9qh9F3hgMasLTeHsSOv9LHrIcA-oqDgTklpQxtkT8VH2Z4PU&usqp=CAU" alt="" class="img-fluid" style="border-radius: 50%; width: 60px; height: 60px; object-fit: cover;">
+                        <div>
+                            <h5 class="mb-0"><strong>Jenny Wilson</strong></h5>
+                            <p class="text-muted mb-0 fw-bold" style="font-size: small;">UI-UX Designer</p>
+                        </div>
+                    </div>
+                    <p class="card-text" style="font-size: 13px;">Ut pharetra ipsum nec leo blandit, sit amet tincidunt eros pharetra. Nam sed imperdiet turpis. In hac habitasse platea dictumst. Praesent nulla massa, hendrerit vestibulum gravida in, feugiat auctor felis.</p>
+                    <p class="card-text" style="font-size: 13px;">
+                        Ut pharetra ipsum nec leo blandit, sit amet tincidunt eros pharetra. Nam sedimperdiet turpis. In hac habitasse platea
+                        <i class="bi bi-quote quote-icon float-end"></i>
+                        </i>
+                        dictumst.
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-6 mb-3">
+                <div class="card border-0 shadow rounded-4 p-4">
+                    <div class="d-flex align-items-center mb-3">
+                        <img src="https://josieforassessor.com/wp-content/uploads/2023/06/team-single.jpg" alt="" class="img-fluid" style="border-radius: 50%; width: 60px; height: 60px; object-fit: cover;">
+                        <div>
+                            <h5 class="mb-0"><strong>Guy Hawkins</strong></h5>
+                            <p class="text-muted mb-0 fw-bold" style="font-size: small;">UI-UX Designer</p>
+                        </div>
+                    </div>
+                    <p class="card-text" style="font-size: 13px;">Ut pharetra ipsum nec leo blandit, sit amet tincidunt eros pharetra. Nam sed imperdiet turpis. In hac habitasse platea dictumst. Praesent nulla massa, hendrerit vestibulum gravida in, feugiat auctor felis.</p>
+                    <p class="card-text" style="font-size: 11px;">
+                        Ut pharetra ipsum nec leo blandit, sit amet tincidunt eros pharetra. Nam sedimperdiet turpis. In hac habitasse platea
+                        <i class="bi bi-quote quote-icon float-end" ></i>
+                        
+                        dictumst.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+ 
+        <section>
+            <div class="container d-flex justify-content-around align-items-center py-5">
+                <button class="btn btn d-flex align-items-center justify-content-center rounded-3 shadow-sm" style="width: 40px; height: 40px;background-color: #e8e4e4;">
+                    <i class="bi bi-chevron-left"></i>
+                </button>
+       
+                <ul class="pagination mb-0">
+                    <li class="page-item">
+                        <a class="page-link  text-white rounded-circle p-0" style="width: 12px; height: 12px;background-color: #173971;" href="#"></a>
+                    </li>
+                    <li class="page-item">
+                        <a class="page-link bg-secondary rounded-circle p-0" style="width: 12px; height: 12px;" href="#"></a>
+                    </li>
+                    <li class="page-item">
+                        <a class="page-link bg-secondary rounded-circle p-0" style="width: 12px; height: 12px;" href="#"></a>
+                    </li>
+                    <li class="page-item">
+                        <a class="page-link bg-secondary rounded-circle p-0" style="width: 12px; height: 12px;" href="#"></a>
+                    </li>
+                    <li class="page-item">
+                        <a class="page-link bg-secondary rounded-circle p-0" style="width: 12px; height: 12px;" href="#"></a>
+                    </li>
+                    <li class="page-item">
+                        <a class="page-link bg-secondary rounded-circle p-0" style="width: 12px; height: 12px;" href="#"></a>
+                    </li>
+                </ul>
+       
+                <button class="btn  d-flex align-items-center justify-content-center rounded-3 shadow-sm" style="width: 40px; height: 40px; background-color: #ffc27a;">
+                    <i class="bi bi-chevron-right"></i>
+                </button>
+            </div>
+        </section>
+ 
+    <footer></footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/5.1.3/js/bootstrap.min.js"></script>
+</body>
+</html>
